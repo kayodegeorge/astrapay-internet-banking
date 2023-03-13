@@ -1,5 +1,6 @@
 import GoBackComponent from '@/components/goBackComponent'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export default function noaccount() {
@@ -18,12 +19,14 @@ export default function noaccount() {
       {/* right */}
       <div className='flex w-full items-center justify-center bg-white md:w-[35rem]'>
         <div className='min-w-[75%] p-6'>
-          <GoBackComponent />
+          <Link href={'/register'}>
+            <GoBackComponent />
+          </Link>
           <div className='mb-5 flex justify-center'>
             <Image
-              width={200}
-              height={200}
-              src='/logo.png'
+              width={300}
+              height={300}
+              src='/astra-logo.svg'
               alt='Astra pay Logo'
             />
           </div>
@@ -46,7 +49,8 @@ export default function noaccount() {
               id='Account'
             />
             <p className='mt-3'>
-              <span className=' text-astra-blue'>Quick Tip:</span> Dial *565*0#
+              <span className=' text-astra-blue'>Quick Tip:</span> Dial{' '}
+              <span className=' text-astra-blue'>*565*0# </span>
               on your registered mobile number to get your BVN number
             </p>
             <button

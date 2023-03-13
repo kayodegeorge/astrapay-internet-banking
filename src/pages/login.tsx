@@ -18,11 +18,11 @@ export default function Login() {
       {/* right */}
       <div className='flex w-full items-center justify-center bg-white md:w-[35rem]'>
         <div className='min-w-[75%]'>
-          <div className='mb-5 flex justify-center'>
+          <div className='mb-3 flex justify-center'>
             <Image
-              width={200}
-              height={200}
-              src='/logo.png'
+              width={300}
+              height={300}
+              src='/astra-logo.svg'
               alt='Astra pay Logo'
             />
           </div>

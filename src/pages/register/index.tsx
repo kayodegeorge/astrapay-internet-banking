@@ -25,9 +25,9 @@ export default function Register() {
           </Link>
           <div className='mb-5 flex justify-center'>
             <Image
-              width={200}
-              height={200}
-              src='/logo.png'
+              width={300}
+              height={300}
+              src='/astra-logo.svg'
               alt='Astra pay Logo'
             />
           </div>

@@ -1,10 +1,9 @@
 import GoBackComponent from '@/components/goBackComponent'
-import LoginComponent from '@/components/LoginComponent'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-export const account = () => {
+export default function forgotPassword() {
   return (
     <div className='flex h-screen w-screen'>
       {/* left */}
@@ -20,10 +19,10 @@ export const account = () => {
       {/* right */}
       <div className='flex w-full items-center justify-center bg-white md:w-[35rem]'>
         <div className='min-w-[75%] p-6'>
-          <Link href={'/register'}>
+          <Link href={'/'}>
             <GoBackComponent />
           </Link>
-          <div className='mb-5 flex justify-center'>
+          <div className='mb-2 flex justify-center'>
             <Image
               width={300}
               height={300}
@@ -33,18 +32,17 @@ export const account = () => {
           </div>
 
           <div className=''>
-            <h1 className='mb-3 flex justify-center text-lg font-semibold'>
-              Welcome!
+            <h1 className=' flex justify-center text-lg font-semibold'>
+              Forgot Password
             </h1>
             <p className='mb-3 flex justify-center p-2 text-lg'>
-              Input your account number so we can fetch your details, this will
-              only take a minute!
+              Input username
             </p>
           </div>
 
           <form className='flex flex-col'>
             <input
-              placeholder='Account Number'
+              placeholder='Username'
               className='rounded-lg border-2 border-blue-300 py-3 px-2 outline-astra-orange'
               type='text'
               name='Account'
@@ -63,5 +61,3 @@ export const account = () => {
     </div>
   )
 }
-
-export default account
