@@ -1,4 +1,4 @@
-import GoBackComponent from '@/components/goBackComponent'
+import GoBackComponent from '@/components/GoBackComponent'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'

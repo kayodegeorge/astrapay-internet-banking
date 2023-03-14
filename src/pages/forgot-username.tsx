@@ -1,4 +1,4 @@
-import GoBackComponent from '@/components/goBackComponent'
+import GoBackComponent from '@/components/GoBackComponent'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -52,7 +52,7 @@ export default function forgotUsername() {
               className='mt-4 rounded-lg bg-astra-blue py-3 px-2 font-bold text-white hover:bg-astra-orange'
               type='submit'
             >
-              Submit
+              Continue
             </button>
           </form>
           {/* <LoginComponent /> */}

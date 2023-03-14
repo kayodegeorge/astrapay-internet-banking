@@ -1,5 +1,4 @@
-import GoBackComponent from '@/components/goBackComponent'
-import LoginComponent from '@/components/LoginComponent'
+import GoBackComponent from '@/components/GoBackComponent'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
