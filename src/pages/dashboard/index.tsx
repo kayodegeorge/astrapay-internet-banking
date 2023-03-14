@@ -1,5 +1,11 @@
-import React from 'react'
+import CustomHead from "@/components/CustomHead";
 
-export default function index() {
-  return <div>index</div>
+export default function Dashboard() {
+  return (
+    <>
+      <CustomHead />
+
+      <div>index</div>
+    </>
+  );
 }
